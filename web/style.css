@@ -1,0 +1,149 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding-bottom: 20px;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+nav {
+	position: sticky;
+	top: 0;
+	background-color: white;
+	font-family: 'Inter';
+	font-weight: 500;
+	font-size: 16px;
+	height: 64px;
+	border-bottom: 1px solid #E0E0E0;
+	display: flex;
+	align-items: center;
+}
+
+nav h1 {
+	font-weight: 600;
+	font-size: 20px;
+	margin: 0;
+	margin-left: 80px;
+}
+
+nav ul {
+	list-style-type: none;
+	display: flex;
+	margin: 0;
+	margin-left: 80px;
+	padding: 0;
+}
+
+nav ul li {
+	margin-right: 32px;
+}
+
+main, section {
+	font-family: 'Inter';
+	margin: 10px 10% 0;
+}
+
+.titleBlock {
+	margin: 200px 0 50px;
+	text-align: center;
+	color: #828282;
+	font-size: 24px;
+}
+
+.titleBlock * {
+	margin: 0;
+	margin-bottom: 24px;
+}
+
+.titleBlock h1 {
+	font-size: 64px;
+	font-weight: 700;
+	color: black;
+}
+
+.titleBlock button {
+	font: inherit;
+	font-size: 16px;
+	color: white;
+	background-color: black;
+	padding: 10px 20px;
+	border: 3px solid black;
+	border-radius: 9px;
+}
+
+.titleBlock button:hover {
+	color: black;
+	background-color: white;
+}
+
+.textBlock {
+	padding: 10px;
+	width: 50%;
+	margin-bottom: 40px;
+	color: #828282;
+	font-size: 24px;
+}
+
+.textBlock:nth-child(odd) {
+	margin-left: auto;
+	text-align: right;
+}
+
+.textBlock * {
+	margin: 0;
+	margin-bottom: 24px;
+}
+
+.textBlock h2 {
+	font-size: 40px;
+	font-weight: 600px;
+	color: black;
+}
+
+.textBlock ul {
+	list-style: none;
+}
+
+.bold {
+	font-weight: 600;
+}
+
+.statRow {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+.statBlock {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid #E0E0E0;
+	border-radius: 9px;
+	width: 30%;
+	padding: 20px;
+}
+
+.statBlock * {
+	margin: 0;
+	margin-bottom: 16px;
+}
+
+.statTitle {
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.statMain {
+	font-family: "Chakra Petch";
+	font-size: 60px;
+	font-weight: 700;
+}
+
+.statDesc {
+	font-size: 16px;
+}
